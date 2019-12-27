@@ -16,22 +16,12 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-
-Follow these steps for completing your project.
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] CD into the project base directory `cd american-football-scoreboard`
+- [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [x] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 
 ## Minimum Viable Product
 
@@ -41,7 +31,7 @@ Follow these steps for completing your project.
 
 ### STEP 1 & 2 - Adding Team Scores to the Component's State
 
-- [ ] Import the `useState` hook
+- [x] Import the `useState` hook
 - [ ] Set up the state values for the Lions team score using the state hook
 
 ```js
