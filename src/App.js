@@ -16,12 +16,12 @@ function App() {
 
             {/* TODO STEP 3 - We need to change the hardcoded values in these divs to accept dynamic values from our state. */}
 
-            <div className="home__score">{home}</div>
+            <div onClick={setHome()} className="home__score">{home}</div>
           </div>
           <div className="timer">00:03</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
-            <div className="away__score">{away}</div>
+            <div onClick={setAway()} className="away__score">{away}</div>
           </div>
         </div>
         <BottomRow />
